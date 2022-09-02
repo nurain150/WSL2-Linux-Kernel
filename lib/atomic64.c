@@ -11,7 +11,8 @@
 #include <linux/init.h>
 #include <linux/export.h>
 #include <linux/atomic.h>
-
+/* Mehn I want to learn the old school C */
+/*Always comment linux kernel source code thanks*/
 /*
  * We use a hashed array of spinlocks to provide exclusive access
  * to each atomic64_t variable.  Since this is expected to used on
